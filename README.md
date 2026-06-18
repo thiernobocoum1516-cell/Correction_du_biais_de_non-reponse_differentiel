@@ -55,7 +55,7 @@ L'objectif est de simuler un mécanisme de non-réponse de type **MNAR (Missing 
     Cloner le dépôt :
     bash
 
-    git clone https://github.com/votre-utilisateur/votre-depot.git
+    git clone https://github.com/thiernobocoum1516-cell/Correction_du_biais_de_non-reponse_differentiel.git
     cd votre-depot
 
     Ajouter les données :
