@@ -7,7 +7,7 @@
 ENSAE Pierre Ndiaye / Agence nationale de la statistique et de la démographie (ANSD)  
 Sous la supervision de M. Hamady DIALLO
 
----
+
 
 ### Description
 Ce projet a été réalisé dans le cadre du module **Traitement Statistique avec R** (Thème 13).  
@@ -17,29 +17,28 @@ L'objectif est de simuler un mécanisme de non-réponse de type **MNAR (Missing 
 2. **Imputation hot-deck stratifiée**.
 3. **Bornes de Manski** (identification partielle).
 
----
+
 
 ### Structure du dépôt
 
-├── README.md                      # Ce fichier
-├── beamer.pdf                     # Présentation Beamer (soutenance)
-├── Rapport_Projet_R.pdf           # Rapport complet en PDF
-├── R/                             # Scripts R (pipeline d'analyse)
-│   ├── 00_setup.R                 # Chargement des packages
-│   ├── 01_import_nettoyage.R      # Import des données et suppression des NA
-│   ├── 02_bootstrap_bruitage.R    # Extension bootstrap et bruitage
-│   ├── 03_simulation_biais.R      # Simulation du modèle logistique MNAR
-│   ├── 04_ipw.R                   # Estimation IPW (régression Firth, poids)
-│   ├── 05_hotdeck.R               # Imputation hot-deck stratifiée
-│   ├── 06_manski.R                # Calcul des bornes de Manski
-│   └── 07_analyse_sensibilite.R   # Tableaux et graphique de synthèse
-├── data/                          # Données (non incluses dans le dépôt)
-│   └── glss_data.dta              # Fichier original .dta (à placer ici)
-├── images/                        # Figures générées
+├── README.md                      % Ce fichier
+├── beamer.pdf                     % Présentation Beamer
+├── Rapport_Projet_R.pdf           % Rapport complet en PDF
+├── R/                             % Scripts R (pipeline d'analyse)
+│   ├── 00_setup.R                 % Chargement des packages
+│   ├── 01_import_nettoyage.R      % Import des données et suppression des NA
+│   ├── 02_bootstrap_bruitage.R    % Extension bootstrap et bruitage
+│   ├── 03_simulation_biais.R      % Simulation du modèle logistique MNAR
+│   ├── 04_ipw.R                   % Estimation IPW (régression Firth, poids)
+│   ├── 05_hotdeck.R               % Imputation hot-deck stratifiée
+│   ├── 06_manski.R                % Calcul des bornes de Manski
+│   └── 07_analyse_sensibilite.R   % Tableaux et graphique de synthèse
+├── data/                          % Données
+├── images/                        % Figures générées
 │   ├── graphe_bruitage.pdf
 │   ├── graphe_biais.pdf
 │   └── graphe_complet.pdf
-└── output/                        # Résultats (tableaux, logs)
+└── output/                        % Résultats (tableaux, logs)
     
 ## Prérequis
 
