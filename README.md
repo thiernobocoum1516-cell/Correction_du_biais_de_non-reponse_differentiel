@@ -21,6 +21,7 @@ L'objectif est de simuler un mécanisme de non-réponse de type **MNAR (Missing 
 
 ### Structure du dépôt
 
+```
 ├── README.md                      % Ce fichier
 ├── beamer.pdf                     % Présentation Beamer
 ├── Rapport_Projet_R.pdf           % Rapport complet en PDF
@@ -39,7 +40,7 @@ L'objectif est de simuler un mécanisme de non-réponse de type **MNAR (Missing 
 │   ├── graphe_biais.pdf
 │   └── graphe_complet.pdf
 └── output/                        % Résultats (tableaux, logs)
-    
+```    
 ## Prérequis
 
     R version 4.0 ou supérieure.
